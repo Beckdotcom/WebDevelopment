@@ -1,0 +1,154 @@
+#top-nav {
+    overflow: hidden;
+    border-bottom: 3px outset;
+    background-color: #bf5700;
+ }
+
+ #top-nav ul { list-style-type: none; }
+
+#top-nav li {
+  display: inline;
+  padding-left: 1.5em;
+  font-weight: bold;
+}
+
+#top-nav li a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #F8F8FF;
+  padding: 0.6em 1em;
+}
+
+#top-nav li a:hover {
+  background-color: #ffffff;
+  color: #bf5700;
+  font-weight: bold;
+}
+#top-nav-bg {
+  position: fixed;
+  top:0; left:0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--shadow-color);
+  z-index: -1;
+  display: none;
+}
+#top-nav-bg.is-active { display: block; }
+
+#Description {
+	background-color: #bf5700;
+	overflow: hidden;
+	border-top: 3px outset;
+}
+#Description p {
+	color: #F8F8FF;
+	padding: 0.6em 1em;
+}
+
+h1 { 
+  font-size:  100px;
+    
+}
+h2{ 
+  font-size: 75px;
+  margin: 10px;
+}
+h3{
+    font-size: 25px;
+}
+
+body { 
+ text-align: center; 
+ font-family: helvetica;
+}
+
+#aboutUsProfiles { 
+ width: 100;
+ display: flex;
+ justify-content: space-around;
+ height 100px; 
+ 
+}
+.profile { 
+    height: 100px;
+    width: 20%; 
+    margin-bottom: 100px;
+   }
+
+#contactUs{ 
+    display:block; 
+    width: 100%; 
+    justify-content: center;
+}
+
+
+.markers {
+    width: 50px;
+}
+
+#locations{
+    width: 30%;
+    height: 900px;
+    display: inline-block;
+    float:left;
+    text-align: left;
+    margin-left: 100px;
+    overflow-y: scroll;
+    
+}
+
+
+#legend{
+    margin:auto;
+    margin-top: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+#key{
+    margin:auto;
+    width: 52%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+h2{
+  
+    margin-bottom: 50px;
+}
+
+.marker{
+    width: 30px;
+    display: inline-block;
+
+}
+h4{
+    display:inline-block; 
+}
+p{
+    display: inline-block;
+}
+
+loc{
+    text-align: left;
+    display:block;
+}
+h3{
+    text-align: center;
+}
+
+form{
+    width: 50%;
+    display: none;
+}
+
+#map{
+    height: 600px;
+    width: 100%;
+}
