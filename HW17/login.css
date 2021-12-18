@@ -1,0 +1,86 @@
+body {
+  background-image: linear-gradient(to bottom right, rgb(0, 140, 255), rgb(255, 0, 255),rgb(153, 0, 255));
+  }
+
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 2em;
+  color:rgb(2, 61, 109)
+}
+
+ul{
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(2, 61, 109)
+}
+
+.field{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color:rgb(2, 61, 109)
+}
+td{
+  width: 100%;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+  
+input[type=button] {
+  float: left;
+  width: 100%;
+  background-color: rgb(0, 140, 255);
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+  input[type=reset] {
+  float: right;
+  width: 100%;
+  background-color: #ff0000;
+  color: rgb(255, 255, 255);
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  }
+  
+  input[type=button]:hover {
+    background-color:rgb(119, 193, 253);
+  }
+  input[type=reset]:hover {
+    background-color: #ff7777;
+  }
+
+  div form,table{
+    align-content: center;
+    opacity: 1.0;
+  }
+  
+  div {
+    margin: auto;
+    align-content: center;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 50%;
+    opacity: 0.9;
+  }
+
+
+  #container{
+    align-content: center;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 20px;
+
+  }

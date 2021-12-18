@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>UT Tour Survey</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="UT tour guide">
+	<meta name="author" content="Rebecca Dong">
+</head> 
+
+<body>
+    <center>
+    <h2>Help Us Guide You</h2>
+    <p>Please provide us your feedback on the today's tour of UT <br>
+         so that we can improve any future experiences.</p>
+    <br>
+    <form method = "POST" >
+    <table border="0px">
+        <tr> 
+            <td>Student's Full Name: </td>
+            <td><label> <input name = "name" type = "text" size = "30" /> </label></td>
+        </tr>
+        <tr>
+            <td>Mailing Address:</td>
+            <td><label><input name = "email" type = "text" size = "30" /> </label></td>
+        </tr>
+        <tr>
+
+            <td> Email: </td>
+            <td><label>  <input name = "email" type = "text" size = "30" /> </label></td>
+
+        </tr>
+        
+        <tr>
+            <td>
+                <br>
+                <b>What did you like?</b>
+                <br>
+                <label> <input name = "attraction[]" type = "checkbox" value = "Students" /> Students  </label>
+                <br>
+                <label> <input name = "attraction[]" type = "checkbox" value = "location" /> Location  </label>
+                <br>
+                <label> <input name = "attraction[]" type = "checkbox" value = "campus" /> Campus  </label>
+                <br>
+                <label> <input name = "attraction[]" type = "checkbox" value = "courses offered" /> Courses offered  </label>
+                <br>
+                <label> <input name = "attraction[]" type = "checkbox" value = "housing" /> Housing  </label>
+                <br>
+                <label> <input name = "attraction[]" type = "checkbox" value = "sports" /> Sports  </label>
+            </td>
+        </tr>
+            
+        <tr>
+            <td>
+                <br>
+                <b>How did you become interested in UT?</b>
+                <br>
+                <label> <input name = "connection" type = "radio" value = "family" /> Family  </label>
+                <br>
+                <label> <input name = "connection" type = "radio" value = "friends" /> Friends  </label>
+                <br>
+                <label> <input name = "connection" type = "radio" value = "television" /> Television  </label>
+                <br>
+                <label> <input name = "connection" type = "radio" value = "internet" /> Internet  </label>
+                <br>
+                <label> <input name = "connection" type = "radio" value = "other" /> Other  </label>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <br>
+                <b>What department did you visit?</b>
+            </td>
+
+            <td>
+                <br>
+                <label> 
+                    <select name = "department" multiple>
+                        <option> Business</option>
+                        <option> Communication</option>
+                        <option> Education </option>
+                        <option> Engineering </option>
+                        <option> Fine Arts </option>
+                        <option> Geosciences </option>                    
+                        <option> Information </option>
+                        <option> Liberal Arts </option>
+                        <option> Natural Sciences </option>
+                        <option> Nursing </option>
+                        <option> Pharmacy </option>
+                        <option> Social Work </option>
+                    </select>
+                </label>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan=2>
+                <br>
+                <label> Additional Comments: <br />
+                <textarea name = "comments" rows = "4" cols = "66"> Enter your comments here </textarea>
+                </label>
+            </td>
+        </tr> 
+        
+        <tr>
+            <td>
+                <input type = "submit" value = "Enter" />
+                <input type = "reset" value = "Clear" />
+            </td>
+        </tr>
+
+    </table>
+    </form>
+    </center>   
+
+
+</body>
+</html>

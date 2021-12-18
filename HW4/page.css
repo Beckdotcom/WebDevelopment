@@ -1,0 +1,45 @@
+h1{
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-weight: bold;
+}
+
+
+h2{
+	font-size: 15pt;
+}
+
+body {
+	background-color: #59cdff;
+	
+font-family: Arial, Helvetica, sans-serif;
+	margin:auto;
+	text-align: center
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited green{
+  color: ;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: blue;
+}
+
+img {
+  border: 1px solid ;
+  border-radius: 4px;
+  padding: 5px;
+  width: 25%;
+  height: 10%; 
+	margin-left: auto;
+    margin-right: auto
+
+}
+

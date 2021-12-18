@@ -1,0 +1,141 @@
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: "Lucida Console", Monaco, monospace;
+} 
+#img1{
+    width: 640px;
+    height: 480px;
+    position:absolute;
+    top:70px;
+    left: 325px;
+    z-index: 0;
+}
+#img2{
+    width: 640px;
+    height: 480px;
+    position:absolute;
+    top:70px;
+    left: 325px;
+    z-index: 0;
+}
+#img3{
+    width: 640px;
+    height: 480px;
+    position:absolute;
+    top:70px;
+    left: 325px;
+    z-index: 0;
+}
+#img4{
+    width: 640px;
+    height: 480px;
+    position:absolute;
+    top:70px;
+    left: 325px;
+    z-index: 0;
+}
+#img5{
+    width: 640px;
+    height: 480px;
+    position:absolute;
+    top:70px;
+    left: 325px;
+    z-index: 0;
+}
+#img6{
+    width: 640px;
+    height: 480px;
+    position:absolute;
+    top:70px;
+    left: 325px;
+    z-index: 0;
+}
+#img7{
+    width: 640px;
+    height: 480px;
+    position:absolute;
+    top:70px;
+    left: 325px;
+    z-index: 0;
+}
+#img8{
+    width: 640px;
+    height: 480px;
+    position:absolute;
+    top:70px;
+    left: 325px;
+    z-index: 0;
+}
+#img9{
+    width: 640px;
+    height: 480px;
+    position:absolute;
+    top:70px;
+    left: 325px;
+    z-index: 0;
+}
+#img10{
+    width: 640px;
+    height: 480px;
+    position:absolute;
+    top:70px;
+    left: 325px;
+    z-index: 0;
+}
+#img11{
+    width: 640px;
+    height: 480px;
+    position:absolute;
+    top:70px;
+    left: 325px;
+    z-index: 0;
+}
+
+#start_button {
+    top:650px;
+    left:480px;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: bolder;
+    position: absolute;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+}
+
+#stop_button {
+    top:650px;
+    left: 580px;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: bolder;
+    position: absolute;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+}
+  
+input:hover {background-color: #3e8e41}
+
+input:active {
+    background-color: #3e8e41;
+    transform: translateY(4px);
+}

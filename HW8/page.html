@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>Random Images</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Create a HTML page with embedded JavaScript that displays a random image every time it is loaded. You have six images to work with.">
+	<meta name="author" content="Beck Dong">
+    <link rel="stylesheet" href="page.css">
+    <script type = "text/javascript" src = "page.js"></script> 
+
+</head>
+
+
+<body onload = "changeImg()">
+    <h1>Galaxies</h1>
+    <center>
+    
+    <form>
+        <p>
+        <img class = "img1"  id = "GalaxyCluster" src = "GalaxyCluster.jpg" alt = "(Picture of a Galaxy Cluster)"  />
+        <img class = "img2"  id = "M104" src = "M104.jpg" alt = "(Picture of the Messier 104 (M104), The Majestic Sombrero Galaxy)" >
+        <img class = "img3"  id = "NGC1300" src = "NGC1300.jpg" alt = "(Picture of the barred spiral galaxy, NGC 1300" >
+        <img class = "img4"  id = "InteractingGalaxies" src = "InteractingGalaxies.jpg" alt = "(Picture of Interacting Galaxies)"  />
+        <img class = "img5"  id = "M51" src = "M51.jpg" alt = "(Picture of the Messier 51 (M51), The Whirlpool Galaxy)" >
+        <img class = "img6"  id = "NGC6217" src = "NGC6217.jpg" alt = "(Picture of the barred spiral galaxy, NGC 6217, located in the Ursa Minor constellation)" >
+        </p>
+        
+        
+
+        <p id = "cap"></p>
+    
+        <input id="button" type = "button" value = "CHANGE IMAGE" onclick = "changeImg()" />
+    </form>
+    </center>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>Travel Show</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Create a HTML page with embedded JavaScript that displays a random image every time it is loaded. You have six images to work with.">
+	<meta name="author" content="Beck Dong">
+    <link rel="stylesheet" href="slideshow.css">
+    <script type = "text/javascript" src = "slideshow.js"></script> 
+
+</head>
+
+
+<body onload="start()">
+    <h1>Travel Show</h1>
+    <center>
+    
+    <form>
+        <p>
+        <img id = "img1"  src = "agra_fort.jpg"  />
+        <img id = "img2"  src = "ajanta_ellora.jpeg"  >
+        <img id = "img3"  src = "akshardham_temple.jpg"  >
+        <img id = "img4"  src = "gateway_of_india.jpg"  />
+        <img id = "img5"  src = "hawa_mahal.jpeg"  >
+        <img id = "img6"  src = "mehrangarh_fort.jpg" >
+        <img id = "img7"  src = "mysore_palace.jpeg" >
+        <img id = "img8"  src = "qutub_minar.jpg" >
+        <img id = "img9"  src = "sun_temple.jpg" >
+        <img id = "img10"  src = "taj_mahal.jpeg" >
+        <img id = "img11"  src = "victoria_memorial.jpg" >
+        </p>
+        
+        <input id="start_button" type = "button" value = "Start" onclick = "start()" />
+        <input id="stop_button" type = "button" value = "Stop" onclick = "stop()" />
+
+    </form>
+    </center>
+</body>
+</html>

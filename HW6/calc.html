@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>Mortgage Calculator</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Calculate the monthly payments, sum of all payments, and total amount paid in interest">
+	<meta name="author" content="Beck Dong">
+    <link rel="stylesheet" href="calc.css">
+
+</head> 
+
+<body>
+<header>
+
+</header>
+
+ <script type = "text/javascript" src="calc.js"></script>
+<div>
+    <h1>FakeBank Mortgage Calculator</h1>
+    <form action = "">
+    <table>
+    
+        <tr> 
+            <td><p class = "field" >Principal Amount: </p></td>
+            <td><input type = "text" id = "p"  size = "30" /> </td>
+        </tr>
+
+        <tr>
+            <td style="width:50%"><p class = "field">Yearly Percentage Interest Rate:</p></td>
+            <td><input type = "text" id = "r"  size = "30" /> </td>
+        </tr>
+
+        <tr>
+            <td><p class = "field">Loan term in months: </p> </td>
+            <td><input type = "text" id = "n"  size = "30" /></td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type = "button" value = "Calculate" onclick = "calculate(
+                document.getElementById('p').value,
+                document.getElementById('r').value,
+                document.getElementById('n').value)" />
+            </td>
+            <td>
+                <input type = "reset" value = "Clear" />
+            </td>
+        </tr>
+
+        <tr>
+            <td style="height:50px"></td>
+            <td style="height:50px"></td>
+        </tr>
+        
+
+        <tr>
+            <td><p class = "field">Monthly payment: </p></td>
+            <td><input type = "text" id = "m_pay"  size = "30" /> </td>
+        </tr>
+
+        <tr>
+            <td><p class = "field">Sum of payments </p></td>
+            <td><input type = "text" id = "sum_pay"  size = "30" /> </td>
+        </tr>
+
+        <tr>
+            <td><p class = "field">Total amount paid in interest </p></td>
+            <td><input type = "text" id = "int_pay"  size = "30" /> </td>
+        </tr>
+    </table>  
+    </form>
+    
+</div>
+<footer>
+
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>Log In</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Calculate the monthly payments, sum of all payments, and total amount paid in interest">
+	<meta name="author" content="Beck Dong">
+    <link rel="stylesheet" href="login.css">
+
+</head>
+<body>
+<header>
+
+</header>
+
+ <script type = "text/javascript" src="login.js"></script>
+<div>
+    <h1>Create an Account</h1>
+    <form action = "">
+    <table>
+        <tr> 
+            <td>
+            <ul>
+                <li>The username must be between 6 and 10 characters long, inclusive.</li>
+                <li>The username must contain only letters and digits.</li>
+                <li>The username cannot begin with a digit.</li>
+                <li>The password and the repeat password must match.</li>
+                <li>The password must be between 6 and 10 characters long, inclusive.</li>
+                <li>The password must contain only letters and digits.</li>
+                <li>The password must have at least one lower case letter, at least one upper case letter, and at least one digit.</li>
+            </ul>
+            </td>
+        </tr>
+    
+        <tr><td><p class = "field" >Username: </p></td></tr>
+        <tr><td><input type = "text" id = "username"  /></td></tr>
+        <tr><td><p class = "field">Password:</p></td></tr>
+        <tr><td><input type = "text" id = "pass"   /> </td></tr>
+        <tr><td><p class = "field">Repeat Password:</p></td></tr>
+        <tr><td><input type = "text" id = "pass2" /></td></tr>
+
+        <tr><td><input type = "button" value = "Register" onclick = "validate(
+                document.getElementById('username').value,
+                document.getElementById('pass').value,
+                document.getElementById('pass2').value)" />
+        </td></tr>
+
+        <tr><td><input type = "reset" value = "Clear" /></td></tr>
+
+    </table>  
+    </form>
+    
+</div>
+<footer>
+    ©Beck Dong 2021
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+body{
+    background-color: black;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: "Lucida Console", Monaco, monospace;
+} 
+.img1{
+    width: 640px;
+    height: 480px;
+    position:absolute;
+    top:70px;
+    left: 325px;
+    z-index: 0;
+    background-color:white;
+    padding: 10px;
+    padding-bottom: 70px;
+    border: 1px solid black;
+}
+.img2{
+    width: 640px;
+    height: 480px;
+    position:absolute;
+    top:70px;
+    left: 325px;
+    z-index: 0;
+    background-color:white;
+    padding: 10px;
+    padding-bottom: 70px;
+    border: 1px solid black;
+}
+.img3{
+    width: 640px;
+    height: 480px;
+    position:absolute;
+    top:70px;
+    left: 325px;
+    z-index: 0;
+    background-color:white;
+    padding: 10px;
+    padding-bottom: 70px;
+    border: 1px solid black;
+}
+.img4{
+    width: 640px;
+    height: 480px;
+    position:absolute;
+    top:70px;
+    left: 325px;
+    z-index: 0;
+    background-color:white;
+    padding: 10px;
+    padding-bottom: 70px;
+    border: 1px solid black;
+}
+.img5{
+    width: 640px;
+    height: 480px;
+    position:absolute;
+    top:70px;
+    left: 325px;
+    z-index: 0;
+    background-color:white;
+    padding: 10px;
+    padding-bottom: 70px;
+    border: 1px solid black;
+}
+.img6{
+    width: 640px;
+    height: 480px;
+    position:absolute;
+    top:70px;
+    left: 325px;
+    z-index: 0;
+    background-color:white;
+    padding: 10px;
+    padding-bottom: 70px;
+    border: 1px solid black;
+}
+
+#cap{
+    font-family: cursive;
+    font-size: 20px;
+    top:550px;
+    left: 340px;
+    position: absolute;
+    color: black;
+    z-index: 10;
+    
+    
+}
+
+#button {
+    top:650px;
+    left: 580px;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: bolder;
+    position: absolute;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+  }
+  
+#button:hover {background-color: #3e8e41}
+
+#button:active {
+    background-color: #3e8e41;
+    transform: translateY(4px);
+}
+
+.footer{
+    width: 100%    
+}

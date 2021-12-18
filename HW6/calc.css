@@ -1,0 +1,75 @@
+body {
+    background: url("house.jpg") center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2em;
+}
+
+.field{
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+input[type=button] {
+    float: left;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+  input[type=reset] {
+    float: right;
+    width: 100%;
+    background-color: #bdb9b9;
+    color: black;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=button]:hover {
+    background-color: #8ed892;
+  }
+  input[type=reset]:hover {
+    background-color: #e4e2e2;
+  }
+
+  form,table{
+    align-content: center;
+  }
+  
+  div {
+    margin: auto;
+    align-content: center;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 40%;
+  }
+
+  #container{
+    align-content: center;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    padding: 20px;
+
+  }
+
